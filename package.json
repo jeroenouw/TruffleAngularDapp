@@ -1,16 +1,29 @@
 {
   "name": "ngx-truffle-dapp",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "Jeroen Ouwehand",
+  "description": "Truffle framework with Angular",
   "license": "MIT",
-  "scripts": {
+  "keywords": [
+    "angular",
+    "truffle",
+    "blockchain",
+    "solidity",
+    "smartcontracts",
+    "dapp",
+    "decentralized"
+  ],
+  "scripts": {      
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "test:c": "truffle test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^4.4.5",
     "@angular/common": "^4.4.5",
